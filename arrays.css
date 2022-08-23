@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%
+}
+
+#arrays {
+    color: blue;
+    margin: 0 auto;
+    font-size: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons__button {
+    width: 150px;
+    height: 80px;
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 8px;
+}
+.arr {
+    margin: 30px auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form .buttons__button {
+    height: 100%;
+}

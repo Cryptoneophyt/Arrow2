@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./arrays.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="arr">Массив</h1>
+        <div class="buttons">
+            <button class="buttons__button" type="button" onclick="ArrayPopMethod()">Запустить метод pop</button>
+            <button class="buttons__button" type="button" onclick="addAll()">Вернуть числа</button>
+            <form action="" method="get" enctype="multipart/form-data">
+                <input type="text" name="" value="" class="buttons__input" onchange="addNewElement(this.value)">
+                <input type="button" value="Добавить элемент" class="buttons__button">
+            </form>
+            <button class="buttons__button" type="button" onclick="deleteAll()">Удалить всё</button>
+        </div>
+        <div id="arrays"></div>
+</body>
+<script src="./arrays.js"></script>
+
+</html>
